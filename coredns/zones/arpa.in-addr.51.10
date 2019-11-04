@@ -1,0 +1,8 @@
+$ORIGIN 51.10.in-addr.arpa.
+51.10.in-addr.arpa. IN SOA @ root 2018060315 3h 15m 1w 1d
+
+233.34 IN PTR aknode23.vran.k2.ericsson.se.
+232.34 IN PTR aknode25.vran.k2.ericsson.se.
+231.34 IN PTR aknode27.vran.k2.ericsson.se.
+230.34 IN PTR aknode29.vran.k2.ericsson.se.
+229.34 IN PTR aknode31.vran.k2.ericsson.se.
