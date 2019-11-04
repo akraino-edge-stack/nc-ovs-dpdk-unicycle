@@ -1,0 +1,20 @@
+vran.k2.ericsson.se {
+    file /etc/coredns/zones/vran.k2.ericsson.se
+    loadbalance
+    errors stdout
+    log
+}
+51.10.in-addr.arpa {
+    file /etc/coredns/zones/arpa.in-addr.51.10
+    loadbalance
+    errors stdout
+    log
+}
+. {
+    proxy . 10.64.73.100
+    loadbalance
+    cache 60
+    errors stdout
+    log
+}
+

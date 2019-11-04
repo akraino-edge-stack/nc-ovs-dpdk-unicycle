@@ -1,0 +1,31 @@
+$ORIGIN vran.k2.ericsson.se.
+@ IN SOA vran.k2.ericsson.se. root 2018060315 3h 15m 1w 1d
+
+aknode23 IN A 10.51.34.233
+aknode25 IN A 10.51.34.232
+aknode27 IN A 10.51.34.231
+aknode29 IN A 10.51.34.230
+aknode31 IN A 10.51.34.229
+
+maas-vip IN A 10.51.34.48
+ingress-vip IN A 10.51.34.49
+
+maas-sw         IN CNAME maas-vip.vran.k2.ericsson.se.
+drydock-sw      IN CNAME maas-vip.vran.k2.ericsson.se.
+cloudformation-sw  IN CNAME ingress-vip.vran.k2.ericsson.se.
+compute-sw         IN CNAME ingress-vip.vran.k2.ericsson.se.
+dashboard-sw       IN CNAME ingress-vip.vran.k2.ericsson.se.
+grafana-sw         IN CNAME ingress-vip.vran.k2.ericsson.se.
+iam-sw             IN CNAME ingress-vip.vran.k2.ericsson.se.
+identity-sw        IN CNAME ingress-vip.vran.k2.ericsson.se.
+image-sw           IN CNAME ingress-vip.vran.k2.ericsson.se.
+kibana-sw          IN CNAME ingress-vip.vran.k2.ericsson.se.
+nagios-sw          IN CNAME ingress-vip.vran.k2.ericsson.se.
+network-sw         IN CNAME ingress-vip.vran.k2.ericsson.se.
+nova-novncproxy-sw IN CNAME ingress-vip.vran.k2.ericsson.se.
+object-store-sw    IN CNAME ingress-vip.vran.k2.ericsson.se.
+orchestration-sw   IN CNAME ingress-vip.vran.k2.ericsson.se.
+placement-sw       IN CNAME ingress-vip.vran.k2.ericsson.se.
+shipyard-sw        IN CNAME ingress-vip.vran.k2.ericsson.se.
+volume-sw          IN CNAME ingress-vip.vran.k2.ericsson.se.
+
