@@ -1,0 +1,7 @@
+Code-Review+2: Georg Kunz <georg.kunz@ericsson.com>
+Verified+1: Georg Kunz <georg.kunz@ericsson.com>
+Submitted-by: Georg Kunz <georg.kunz@ericsson.com>
+Submitted-at: Fri, 08 Nov 2019 17:25:38 +0000
+Reviewed-on: https://gerrit.akraino.org/r/c/nc/ovs-dpdk-unicycle/+/1947
+Project: nc/ovs-dpdk-unicycle
+Branch: refs/heads/master
