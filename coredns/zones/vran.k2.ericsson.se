@@ -7,8 +7,8 @@ aknode27 IN A 10.51.34.231
 aknode29 IN A 10.51.34.230
 aknode31 IN A 10.51.34.229
 
-maas-vip IN A 10.51.34.48
-ingress-vip IN A 10.51.34.49
+maas-vip IN A 10.51.34.235
+ingress-vip IN A 10.51.34.236
 
 maas-sw         IN CNAME maas-vip.vran.k2.ericsson.se.
 drydock-sw      IN CNAME maas-vip.vran.k2.ericsson.se.
